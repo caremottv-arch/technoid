@@ -1,0 +1,67 @@
+/* ==========================================
+   TECHNOID THEME PRO v1.0
+   DARK.CSS
+========================================== */
+
+body.dark{
+background:#0f172a;
+color:#f8fafc;
+transition:.4s;
+}
+
+body.dark header{
+background:#111827;
+box-shadow:0 5px 15px rgba(0,0,0,.35);
+}
+
+body.dark .logo{
+color:#38bdf8;
+}
+
+body.dark nav a{
+color:#e5e7eb;
+}
+
+body.dark nav a:hover{
+color:#38bdf8;
+}
+
+body.dark .hero{
+background:linear-gradient(135deg,#1e3a8a,#0f172a);
+}
+
+body.dark .card{
+background:#1e293b;
+color:#fff;
+}
+
+body.dark .card p{
+color:#cbd5e1;
+}
+
+body.dark footer{
+background:#020617;
+}
+
+.dark-toggle{
+position:fixed;
+right:20px;
+bottom:20px;
+width:55px;
+height:55px;
+border-radius:50%;
+background:#2563eb;
+color:#fff;
+display:flex;
+justify-content:center;
+align-items:center;
+cursor:pointer;
+font-size:22px;
+box-shadow:0 10px 20px rgba(0,0,0,.3);
+transition:.3s;
+z-index:9999;
+}
+
+.dark-toggle:hover{
+transform:scale(1.1);
+}
